@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Omdbi API</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/0e0f113f1b.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body">
+
+    <header>
+        <div class="movetext">
+            <h1 class="text">Omdbi API</h1>
+            <h3 class="text2"></h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <input type="text" id="inputMovieName" class="form-control"
+                            value="Transformers" placeholder="Iveskite filmo pavadinima" )>
+                        <div class="input-group-append">
+                            <button id="searchMovie" class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Runtime</th>
+                            <th scope="col">Director</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">imdbRating</th>
+                            <th scope="col">Plot</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody">
+                        <tr>
+                            <th id="mTitle" scope="row"></th>
+                            <th id="mTime" scope="row"></th>
+                            <th id="mDirector" scope="row"></th>
+                            <th id="mYear" scope="row"></th>
+                            <th id="mRating" scope="row"></th>
+                            <th id="mPlot" scope="row"></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footeris">D.Tamulis</div>
+
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

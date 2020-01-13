@@ -1,0 +1,43 @@
+$orange: #dc8344;
+$darkblue: #262b53;
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    html,body{
+        height: 100%;
+    }
+
+
+  .movetext{
+     position: relative;
+     top:70px;
+      text-align: center;
+      color:#f3f5f6;
+  }
+
+  header{
+    background-color:$orange;
+    height: 35%;
+    display: block;
+  }
+
+    main{
+        background-color:$darkblue;
+        min-height: 65%;
+        display: flex;
+        display: block;
+    }
+
+    .footeris{
+       height: 100px;
+       background-color:#dc8344;
+       display: flex;
+       display: block;
+       color:#f3f5f6;
+       font-size: 30px;
+       text-align: center;
+       line-height: 100px;
+    }
